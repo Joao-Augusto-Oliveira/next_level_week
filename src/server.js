@@ -1,3 +1,4 @@
+// Dados
 const proffys = [
     {
         name: "João Augusto",
@@ -35,28 +36,60 @@ const proffys = [
     }
 ]
 
+const subjects = [
+    "Artes",
+    "Biologia",
+    "Ciências",
+    "Educação Física",
+    "Física",
+    "Geografia",
+    "História",
+    "Matemática",
+    "Português",
+    "Química",
+]
+
+const weekdays = [
+    "Domingo",
+    "Segunda-feira",
+    "Terça-feira",
+    "Quarta-feira",
+    "Quinta-feira",
+    "Sexta-feira",
+    "Sábado",
+]
+
+// Funcionalidades
 function pageLanding(req, res) {
     return res.render("index.html")
 }
 
 function pageStudy(req, res) {
-    return res.render("study.html", {proffys})
+    const filters = req.query
+    return res.render("study.html", {proffys, filters, subjects, weekdays})
 }
 
 function pageGiveClasses(req, res) {
-    return res.render("give-classes.html")
+    const dados = req.query
+
+    console.log(dados)
+    // adicionar dados a lista de proffys
+
+    return res.render("give-classes.html", {subjects, weekdays})
 }
 
+// Servidor
 const express = require('express')
 const server = express()
 
-// configurar nunjucks.js
+// configurar nunjucks (template engine)
 const nunjucks = require('nunjucks')
 nunjucks.configure('src/views', {
     express: server,
     noCache: true,
 })
 
+// Início e configuração do servidor
 server
 // Configurar arquivos estáticos (css, scripts, imagens)
 .use(express.static('public'))
@@ -64,6 +97,7 @@ server
 .get("/", pageLanding)
 .get('/study', pageStudy)
 .get('/give-classes', pageGiveClasses)
+// start do servidor
 .listen(5500)
 
 
