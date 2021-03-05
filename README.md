@@ -20,7 +20,7 @@ Nessa temática, o Proffy possibilita a integração desses sujeitos, através d
 
 ### 🖥 **Ferramentas**
 
-- **Protótipo:** **[Figma](https://www.figma.com/)** | **<kbd>[Protótipo(Web)](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/?viewer=1&node-id=)</kbd>** | **<kbd>[Protótipo(Mobile)](https://www.figma.com/file/e33KvgUpFdunXxJjHnK7CG/?viewer=1&node-id=)</kbd>** |
+- **Protótipo:** **<kbd>[Figma](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/?viewer=1&node-id=)</kbd>** 
 - **Editor:** **[Visual Studio Code](https://code.visualstudio.com/)** &rarr; Extensions: **<kbd>[VSCode_Plugin_SQLite]</kbd>**
 - **Commit Conventional:** **[Commitlint]**
 - **Fontes:** **[Google Fonts - Archivo](https://fonts.google.com/specimen/Archivo?query=archivo) | [Google Fonts - Poppins](https://fonts.google.com/specimen/Poppins?query=Poppins)**
