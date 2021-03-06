@@ -1,5 +1,7 @@
 <div align=center>
 
+![PRINTS](./layout/logo.svg)
+
 <h3>
 
 Projeto desenvolvido na #NextLevelWeek da [Rocketseat], utilizando **HTML**, **CSS**, **JAVASCRIPT**, **Node** e **SQL**.
