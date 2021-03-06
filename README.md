@@ -8,7 +8,7 @@ Projeto desenvolvido na #NextLevelWeek da [Rocketseat], utilizando **HTML**, **C
 
 ![PRINTS](./layout/banner.png)
 
-![PRINTS](./layout/mockup.png)
+![PRINTS](./layout/telas.png)
 
 
 </div>
