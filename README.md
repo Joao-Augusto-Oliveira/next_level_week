@@ -8,6 +8,9 @@ Projeto desenvolvido na #NextLevelWeek da [Rocketseat], utilizando **HTML**, **C
 
 ![PRINTS](./layout/banner.png)
 
+![PRINTS](./layout/mockup.png)
+
+
 </div>
 
 ## 📚 **Sobre**
@@ -16,6 +19,15 @@ Em tempos de pandemia, conectar estudantes e professores se tornou ainda mais im
 <br>
 Nessa temática, o Proffy possibilita a integração desses sujeitos, através da construção e disponibilização de um cadastro de professores, onde o aluno encontra, além de informações de contato, biografia e valor hora/aula, segmentação por disciplinas, dias da semana e horários.
 
+<br>
+
+### 📌  **Tecnologias utilizadas**
+* HTML
+* CSS
+* JavaScript
+* Node.js
+* SQL
+<br>
 <br>
 
 ### 🖥 **Ferramentas**
@@ -37,7 +49,7 @@ Nessa temática, o Proffy possibilita a integração desses sujeitos, através d
 $ git clone https://github.com/Joao-Augusto-Oliveira/proffys
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd Proffy
+$ cd proffys
 
 # Instale as dependências
 $ yarn
