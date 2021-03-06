@@ -48,10 +48,10 @@ Nessa temática, o Proffy possibilita a integração desses sujeitos, através d
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/Joao-Augusto-Oliveira/proffys
+$ git clone https://github.com/Joao-Augusto-Oliveira/proffy
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd proffys
+$ cd proffy
 
 # Instale as dependências
 $ yarn
